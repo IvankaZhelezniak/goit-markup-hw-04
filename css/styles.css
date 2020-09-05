@@ -260,7 +260,7 @@ img {
 }
 
 .feature-list .title {
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 10px;
 
   color: var(--title-text-color);
@@ -596,6 +596,12 @@ img {
   font-size: 16px;
   line-height: 1.62px;
   letter-spacing: 0.03em;
+}
+
+.buttons:hover,
+.buttons:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 .button-list .button-veb {
