@@ -354,17 +354,12 @@ img {
 
 .social-icon-link:hover .icon-social,
 .social-icon-link:focus .icon-social {
-  fill: var(--accent-color);
-}
-
-.social-icon-link:hover.instagram,
-.social-icon-link:focus.instagram {
-  background-color: var(--accent-color);
-}
-
-.social-icon-link:hover .instagram,
-.social-icon-link:focus .instagram {
   fill: var(--primary-white-color);
+}
+
+.social-icon-link:hover,
+.social-icon-link:focus {
+  background-color: var(--accent-color);
 }
 
 .social-icon-item:not(:last-child) {
@@ -465,9 +460,7 @@ img {
   background-color: #2f303a;
 }
 
-.footer-link-twitter:hover .twitter {
-  fill: var(--primary-white-color);
-}
+/* Оформлення ссилок  на соц сети у футере*/
 
 .dark-icon-footer {
   margin-top: 0;
@@ -480,8 +473,6 @@ img {
   display: flex;
   align-items: baseline;
 }
-
-/* Оформлення ссилок  на соц сети */
 
 .text-footer {
   display: block;
@@ -501,14 +492,6 @@ img {
 
 .icon-link-footer {
   background-color: rgba(255, 255, 255, 0.1);
-}
-
-.footer-link-twitter {
-  background-color: var(--accent-color);
-}
-
-.footer-link-twitter .icon-social {
-  fill: var(--primary-white-color);
 }
 
 /* Лого footer*/
